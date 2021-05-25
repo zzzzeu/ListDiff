@@ -3,6 +3,7 @@ A lightweight O(n) difference algorithm based on the Paul Heckel's algorithm.
 It builds on top of generic BidirectionalCollection, provide friendly support to UIKit based API.
 
 ## Getting start
+You can clone this repository and run the `ListDiffExample` to see the collection view animation provided by ListDiff.
 #### Basic usage
 ```swift
 print(ListDiff.diffing(oldData: "laksjdzcxlkawiey", newData: "xclvkbyoieuwyrck"))
